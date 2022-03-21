@@ -1,0 +1,62 @@
+.bmw {
+  width: 400px;
+  height: 400px;
+}
+
+.edgeblue {
+  fill: url(#bluegradient);
+  stroke: #c8d6d6;
+  stroke-width: 0.6;
+}
+
+.black {
+  fill: url(#blackgradient);
+  stroke: black;
+  stroke-width: 0.2;
+}
+
+.ring {
+  fill: url(#ringgradient);
+  stroke: black;
+}
+.inner-ring {
+  fill: white;
+  stroke: rgb(53, 52, 52);
+  stroke-width: 1;
+}
+text {
+  color: white;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 35px;
+}
+
+.quarter1 {
+  fill: url(#quarter1gradient);
+  fill-opacity: 1;
+  stroke: #303030;
+  stroke-width: 2;
+}
+
+.quarter2 {
+  fill: url(#quarter2gradient);
+  stroke: #303030;
+  stroke-width: 2;
+}
+.quarter3 {
+  fill: url(#quarter3gradient);
+  stroke: #303030;
+  stroke-width: 2;
+}
+.quarter4 {
+  fill: url(#quarter4gradient);
+  stroke: #303030;
+  stroke-width: 2;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: white;
+}

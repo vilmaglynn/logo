@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+	<svg class="bmw" viewBox="0 0 100 100">
+		<circle class="edgeblue" cx="50" cy="50" r="50"></circle>
+		<linearGradient id="bluegradient" gradientTransform="rotate(45)">
+			<stop offset="5%" stop-color="#c8d6d6" />
+			<stop offset="100%" stop-color="#555" />
+		</linearGradient>
+		<circle class="black" cx="50" cy="50" r="48"></circle>
+		<!-- <defs>
+			<path id="myTextPath" d="M10,30 a1,1 0 0,0 90,0 z" />
+		</defs>
+
+		<text x="10" y="10" style=" stroke:black;stroke-width:0.1;font-size:1.5em; fill: white;font-family:Helvetica">
+			<textPath xlink:href="#myTextPath" method="stretch">BMW</textPath>
+		</text> -->
+
+
+		<linearGradient id="blackgradient" gradientTransform="rotate(45)">
+			<stop offset="1%" stop-color="#999" />
+			<stop offset="80%" stop-color="black" />
+		</linearGradient>
+		<circle class="ring" cx="50" cy="50" r="30.5"></circle>
+		<linearGradient id="ringgradient" gradientTransform="rotate(45)">
+			<stop offset="10%" stop-color="#555" />
+			<stop offset="100%" stop-color="#c8d6d6" />
+		</linearGradient>
+		<circle class="inner-ring" cx="50" cy="50" r="28.5"></circle>
+		<defs>
+			<g id="quarter_pies">
+				<path class="quarter1" d="M0,0 L0,-100  A100,100 0 0,1  100,000  z" />
+				<linearGradient id="quarter1gradient" gradientTransform="rotate(45)">
+					<stop offset="10%" stop-color="#fff" />
+					<stop offset="100%" stop-color="#bbb" />
+				</linearGradient>
+				<path class="quarter2" d="M0,0 L-100,0  A100,100 0 0,1    0,-100 z" />
+				<linearGradient id="quarter2gradient" gradientTransform="rotate(45)">
+					<stop offset="10%" stop-color="#8ce" />
+					<stop offset="100%" stop-color="#3ad" />
+				</linearGradient>
+				<path class="quarter3" d="M0,0 L0,100   A100,100 0 0,1 -100,0    z" />
+				<linearGradient id="quarter3gradient" gradientTransform="rotate(45)">
+					<stop offset="10%" stop-color="#fff" />
+					<stop offset="100%" stop-color="#bbb" />
+				</linearGradient>
+				<path class="quarter4" d="M0,0 L100,0   A100,100 0 0,1    0,100  z" />
+				<linearGradient id="quarter4gradient" gradientTransform="rotate(45)">
+					<stop offset="10%" stop-color="#29d" />
+					<stop offset="100%" stop-color="#368" />
+				</linearGradient>
+			</g>
+		</defs>
+		<use transform="translate(50,50) scale(0.28,0.28)" xlink:href="#quarter_pies"></use>
+
+	</svg>
+
+
+</body>
+
+</html>
